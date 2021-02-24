@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE note SYSTEM "persoane.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+    </persoana>
+
+    <adresa id="1">
+        <strada>Random</strada>
+        <numar>23</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+    </adresa>
+
+     <persoana id="2">
+        <nume>om</nume>
+        <prenume>preom</prenume>
+        <varsta>23</varsta>
+        <work-experience>none</work-experience>
+        <skill>joggling</skill>
+        <language>russian</language>
+    </persoana>
+
+</persoane>
+
+
+
