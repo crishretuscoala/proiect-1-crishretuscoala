@@ -1,0 +1,68 @@
+<html>
+<title>Inregistreaza</title>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="user">Nume utilizator</label><br>
+  <input type="text" id="user" name="user" value="user"><br><br>
+  <label for="lpasswd">Parola:</label><br>
+  <input type="password" id="lpasswd" name="lpasswd" value="parola"><br><br>
+  <label for="fname">Nume: </label><br>
+  <input type="text" id="fname" name="fname" value="nume"><br>
+  <label for="lname">Prenume:</label><br>
+  <input type="text" id="lname" name="lname" value="prenume"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  <label for="phone">Telefon:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+  <label for="Sex">Sex:</label>
+<select id="sex" name="sex"> 
+  <option value="Feminin">Feminin</option>
+  <option value="Masculin">Masculin</option>
+</select><br><br>
+<label for="mancarea-alegere">Mâncarea preferată :</label>
+<input list="mancarea-preferata" id="mancarea-alegere" name="mancarea-alegere" />
+<datalist id="mancarea-preferata">
+    <option value="Pizza">
+    <option value="Tort">
+    <option value="Capsuni">
+</datalist><br><br>
+<label for="start">Data nașterii:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="1998-07-22"
+       min="1900-01-01" max="2005-12-31">
+<br><br>
+
+<label for="appt">Ora nasterii:</label>
+<input type="time" id="appt" name="appt">
+<br><br>
+
+<label for="Varsta">Varsta:</label>
+<input type="range" id="points" name="points" min="0" max="100">
+<br><br>
+<label for="url">URL:</label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+
+<br><br>
+
+<label for="Descriere">Descriere:</label>
+<textarea name="Descriere" form="usrform"></textarea><br><br>
+<input type="checkbox" id="" name="checkbox" value="checkbox">
+<label for="checkbox"> Sunt de acord cu conditiile</label><br>
+
+
+  
+  <input type="submit" value="Inregistreaza">
+</form> 
+
+
+
+</body>
+</html>
