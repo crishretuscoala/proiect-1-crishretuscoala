@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Republicii</strada>
+            <numar>23</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <buletin>
+            <cnp>1234567890123</cnp>
+            <numar>553416</numar>
+            <seria>MX</seria>
+        </buletin>
+    </persoana>
+    <persoana id="2">
+        <nume>Maruta</nume>
+        <prenume>Andra</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Fericirii</strada>
+            <numar>5</numar>
+            <localitate>Targu Frumos</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <buletin>
+            <cnp>1234560090981</cnp>
+            <numar>911261</numar>
+            <seria>MX</seria>
+        </buletin>
+    </persoana>
+    <persoana id="3">
+        <nume>Patricia</nume>
+        <prenume>Muntenita</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Nicolaescu</strada>
+            <numar>22</numar>
+            <localitate>Bucurestu</localitate>
+            <judet>Ilfov</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <buletin>
+            <cnp>1234512390981</cnp>
+            <numar>764565</numar>
+            <seria>MZ</seria>
+        </buletin>
+    </persoana>
+    <persoana id="4">
+        <nume>Dinca</nume>
+        <prenume>Maria</prenume>
+        <varsta>18</varsta>
+        <adresa>
+            <strada>Caramazov</strada>
+            <numar>37</numar>
+            <localitate>Petrosani</localitate>
+            <judet>Ploiesti</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <buletin>
+            <cnp>1234512690981</cnp>
+            <numar>846765</numar>
+            <seria>MZ</seria>
+        </buletin>
+    </persoana>
+    <persoana id="5">
+        <nume>Piersic</nume>
+        <prenume>Alexandra</prenume>
+        <varsta>24</varsta>
+        <adresa>
+            <strada>Cires</strada>
+            <numar>23</numar>
+            <localitate>Suceava</localitate>
+            <judet>Suceava</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <buletin>
+            <cnp>1234987890981</cnp>
+            <numar>191965</numar>
+            <seria>MZ</seria>
+        </buletin>
+    </persoana>
+</persoane>

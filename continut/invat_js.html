@@ -1,0 +1,50 @@
+.
+    <aside>
+            <a href="#sec1" target="_self">Detalii</a><br>
+            <a href="#sec2" target="_self">Internet Loto</a><br>
+            <a href="#sec3" target="_self">Canvas</a><br>
+            <a href="#sec4" target="_self">Tabel dinamic</a><br>
+    </aside>
+
+    <script src="js/script.js"></script>
+
+    <section id="sec1">
+        <h3>Detalii</h3><br>
+        <p>Data:  <b id="data"></b></p>     
+        <p >Ora: <b id="ora"></b></p>       
+        <p>Locatie curenta: <b id="locatie"></b> </p>       
+        <p >Adresa URL: <b id="url"></b></p>       
+        <p>Nume browser: <b id="nbrowser"></b></p>       
+        <p >Versiune: <b id="version"></b></p>
+        <p >Sistem de operare: <b id="os"></b></p>
+    </section>
+    <hr>
+    <section id="sec2">
+        <h3>Numere extrase la jocul "Internet Loto".</h3>
+        <form >
+            <input id="nr1" type="text" name="nr1"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr2" type="text" name="nr2"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr3" type="text" name="nr3"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr4" type="text" name="nr4"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr5" type="text" name="nr5"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr6" type="text" name="nr6"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr7" type="text" name="nr7"  pattern="[A-Z0-9]{2}" size="5">
+            <input id="nr8" type="text" name="nr8"  pattern="[A-Z0-9]{2}" size="5">
+        </form>
+        <br>
+        <button onclick="" type="button">Extragere</button>
+    </section>
+    <hr>
+    <section id="sec3">
+        <h3>Desenare de figuri.</h3>
+        <label for="fill">Fill color:</label>
+        <input type="color" id="fill" name="fill">
+        <label for="stroke">Stroke:</label>
+        <input type="color" id="stroke" name="stroke">
+        <canvas id="canvas" onclick="draw()" width="200" height="200"></canvas>
+    </section>
+    <hr>
+    <section id="sec4">
+        <h3>Modificarea dinamica a unui tabel.</h3>
+    </section>
+   
